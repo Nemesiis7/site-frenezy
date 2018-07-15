@@ -1,0 +1,179 @@
+div ul {
+	font-family: 'PT Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+#banner1 {
+	display: block;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
+
+#banner1 .fa-facebook {
+	padding: 20px;
+    font-size: 15px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#banner1 .fa-facebook:hover {
+    opacity: 0.7;
+}
+
+#banner1 .fa-facebook {
+	padding-top: 10px;
+    background: black;
+    color: white;
+}
+
+#banner1 .fa-twitter {
+	padding: -20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;    
+}
+
+#banner1 .fa-twitter:hover {
+    opacity: 0.7;
+}
+
+#banner1 .fa-twitter {
+	padding-top: 20px;
+    background: black;
+    color: white;
+}
+
+#menu {
+	width: 100%;
+	position: relative;
+	background-color: #841F25;
+	display: flex;
+	justify-content: center;
+}
+
+#menu ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	list-style-type: none;
+	position: relative;
+}
+
+#menu ul li a {
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+#menu ul li a:hover {
+	color: black;
+	background-color: #AF2931;
+	transition: all 0.3s;
+}
+
+#banner2 {
+	display: block;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
+
+#contenuprincipal {
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+
+
+#menu img {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: -20%; 
+	left: 2%;
+	image-rendering: transparent;
+}
+
+footer {
+	text-align: center;
+	background-color: #333333;
+	height: 180px;
+	position: absolute;
+	width: 100%;
+	color: #FFF;
+}
+
+footer p {
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	text-align: left;
+	left: 2%;
+}
+
+footer p2 {
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	left: 600px;
+}
+
+#footer .fa-facebook {
+	left: 300px;
+	top: 30px;
+	padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+}
+
+#footer .fa-facebook:hover {
+    opacity: 0.7;
+}
+
+#footer .fa-facebook {
+	padding-top: 7px;
+	padding-left: 16px;
+    background: #3b5998;
+    color: white;
+}
+
+#footer .fa-twitter {
+	right: 10vh;
+	top: 30px;
+	padding: 20px;
+    font-size: 20px;
+  	text-decoration: none;  
+    border-radius: 20%;
+    padding-top: 7px;
+	padding-left: 7px;
+    background: #1dcaff ;
+    color: white;
+    
+    
+}
+
+#footer .fa-twitter:hover {
+    opacity: 0.7;
+}
+
+
+
