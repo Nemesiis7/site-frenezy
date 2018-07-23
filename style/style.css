@@ -101,20 +101,12 @@ section {
 	margin-right: auto;
 }
 
-.rcorner1 {	
+.rcorner {	
 	border: 1px solid #841F25;
 	padding: 20px;
 	box-shadow: 5px 3px 7px #888888;
-	width: 80em;
-	height: 500px;
-}
-
-.rcorner2 {
-	border: 1px solid #841F25;
-	padding: 20px;
-	box-shadow: 5px 3px 7px #888888;
-	width: 80em;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 }
 
 /* Colonnes inegales qui flottent cote a cote */
@@ -129,36 +121,34 @@ section {
     float: left;
     width: 25%;
     border: 1px solid #841F25;
-    background: #841F25;
     padding-left: 20px;
 }
 
 /* fausse image */
 .fakeimg {
     background-color: #aaa;
-    width: 80%;
-    padding: 20px;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin-bottom: 20px;
 }
+
 
 /* Ajouter un effet de cartes pour les articles */
 .card {
-    background-color: white;
+	background-color: white;
     padding: 20px;
     margin-top: 20px;
+}
+
+.rightcolumn .card:not(:last-child) {
+	border-bottom: 1px solid #841F25;
 }
 
 /* Clear floats after the columns */
 .row:after {
     display: table;
     clear: both;
-}
-
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -185,9 +175,9 @@ section {
 footer {
 	text-align: center;
 	background-color: #841F25;
-	height: 180px;
+	height: 8vh;
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	color: #FFF;
 }
 
